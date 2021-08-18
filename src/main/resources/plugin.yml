@@ -1,0 +1,18 @@
+name: RPcommands
+version: ${project.version}
+main: ml.meddiwale.rpcommands.RPcommands
+api-version: 1.17
+prefix: RP
+commands:
+  me:
+    usage: /me [действие]
+    description: Выполняет действие
+  do:
+    usage: /do [текст]
+    description: Написать от третего лица
+  todo:
+    usage: /todo [фраза*действие]
+    description: Сказать что либо потом сделать что либо
+  try:
+    usage: /try [текст]
+    description: Подбросить монетку
