@@ -5,14 +5,14 @@ api-version: 1.17
 prefix: RP
 commands:
   me:
-    usage: /me [действие]
-    description: Выполняет действие
+    usage: /me [action]
+    description: Performs an action
   do:
-    usage: /do [текст]
-    description: Написать от третего лица
+    usage: /do [text]
+    description: Write from a third party
   todo:
-    usage: /todo [фраза*действие]
-    description: Сказать что либо потом сделать что либо
+    usage: /todo [phrase * action]
+    description: Say something then do something
   try:
-    usage: /try [текст]
-    description: Подбросить монетку
+    usage: /try [text]
+    description: Successful / Unsuccessful
