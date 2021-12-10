@@ -76,13 +76,13 @@ public final class RPcommands extends JavaPlugin implements CommandExecutor {
                 int x = r.nextInt((2 - 1) + 1) + 1; // r.nextInt((max - min) + 1) + min;
                 if(x == 1) {
                     if(getConfig().getString("lang").equalsIgnoreCase("ru"))
-                        fo(p.getLocation(), "&e" + p.getName() + " &7" + joinArgs + " &a| Successful");
+                        fo(p.getLocation(), "&e" + p.getName() + " &7" + joinArgs + " &a| Удачно");
                     else
                         fo(p.getLocation(), "&e" + p.getName() + " &7" + joinArgs + " &a| Successful");
                 }
                 else {
                     if(getConfig().getString("lang").equalsIgnoreCase("ru"))
-                        fo(p.getLocation(), "&e" + p.getName() + " &7" + joinArgs + " &4| Unsuccessful");
+                        fo(p.getLocation(), "&e" + p.getName() + " &7" + joinArgs + " &4| Удачно");
                     else
                         fo(p.getLocation(), "&e" + p.getName() + " &7" + joinArgs + " &4| Unsuccessful");
                 }
