@@ -82,7 +82,7 @@ public final class RPcommands extends JavaPlugin implements CommandExecutor {
                 }
                 else {
                     if(getConfig().getString("lang").equalsIgnoreCase("ru"))
-                        fo(p.getLocation(), "&e" + p.getName() + " &7" + joinArgs + " &4| Удачно");
+                        fo(p.getLocation(), "&e" + p.getName() + " &7" + joinArgs + " &4| Неудачно");
                     else
                         fo(p.getLocation(), "&e" + p.getName() + " &7" + joinArgs + " &4| Unsuccessful");
                 }
